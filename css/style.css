@@ -1,0 +1,563 @@
+* {}
+
+body {font-family: 'Open Sans', sans-serif;}
+
+.wrapper p {}
+
+.wrapper {
+    width: 97.8%;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0EB493;
+}
+
+
+/*--header --*/
+
+#header {
+    background-image: url(../Images/slider4.jpg);
+    height: 800px;
+}
+
+
+/*--nav --*/
+
+#nav {
+    position: fixed;
+    width: 97.8%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #0E382E;
+    opacity: 0.9;
+    z-index: 99999
+}
+
+#navigation.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    background-color: transparent;
+}
+
+#myNavbar {
+    float: right
+}
+
+.navbar-header span {
+    color: #0EB493;
+    position: relative;
+    top: 15px
+}
+
+.navbar-header small {
+    color: #546366;
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+
+#brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Pacifico', cursive;
+}
+#brand span {}
+
+#brand {}
+
+
+/*--nav end --*/
+
+
+/*--slider --*/
+
+#slider-content {
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+#slider-content h1,
+#slider-content h2 {
+    color: #546765;
+}
+
+#slider-content h1 b {
+    color: white
+}
+
+#slider-content h2 span {
+    color: #0C8D64
+}
+
+#slider-content h1 {
+    font-size: 500%;
+    margin-bottom: -2%
+}
+
+#slider-content h2 {
+    font-size: 300%
+}
+
+#slider-content p {
+    color: #0C8D64
+}
+
+#slider-content p small {
+    color: #546765;
+    padding: 0 1%
+}
+
+#headersocial a span {
+    color: #546765;
+    margin-top: 8%;
+    margin-bottom: 3.9%;
+}
+
+#headersocial a:hover span {
+    color: white
+}
+
+
+/*--slider end --*/
+
+
+/*--header end --*/
+
+
+/*--Feature --*/
+
+#features {
+    background-color: #F4F7F9;
+    padding: 5%
+}
+
+h3+img {
+    margin-left: 38.5%
+}
+
+.col-md-4 img {
+    position: relative;
+    right: 50px;
+    top: 50px;
+    border-radius: 100%;
+    border: 1px solid #0EB493
+}
+
+.col-md-4 {
+    width: 30%;
+    margin-right: 3.3%;
+}
+
+
+/*--Feature end --*/
+
+
+/*--works --*/
+
+.item img {
+    width: 100%;
+}
+
+#works {
+    padding: 5% 0
+}
+
+#works p {
+    text-align: center;
+    padding: 2%
+}
+
+
+/*--works end --*/
+
+
+/*--our team--*/
+
+#ourteam {
+    padding: 5% 0;
+    text-align: center
+}
+
+#ourteam h4 {
+    color: #0EB493
+}
+
+.our-team {
+    margin-top: 4%;
+}
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+.ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    -webkit-backface-visibility: hidden;
+    /*Just for webkit to have a smooth font*/
+}
+
+.ch-info {
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.ch-info-back {
+    opacity: 0;
+    background: #1AB798;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+    -moz-transition: all 0.4s ease-in-out 0.2s;
+    -o-transition: all 0.4s ease-in-out 0.2s;
+    -ms-transition: all 0.4s ease-in-out 0.2s;
+    transition: all 0.4s ease-in-out 0.2s;
+}
+
+.ch-img-1 {
+    background-image: url(../images/ourteam3.jpg);
+}
+
+.ch-img-2 {
+    background-image: url(../images/ourteam2.jpg);
+}
+
+.ch-img-3 {
+    background-image: url(../images/ourteam1.jpg);
+}
+
+.ch-img-4 {
+    background-image: url(../images/ourteam4.jpg);
+}
+
+.ch-info p {
+    color: #fff;
+    padding: 10px 5px 30px;
+    margin: 0 30px;
+    font-size: 12px;
+}
+
+.ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.ch-grid li {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.ch-item:hover .ch-info-back {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: .9;
+}
+
+.teamsocial a i {
+    color: white;
+    background-color: black;
+    opacity: 0.5
+}
+
+.teamsocial a i:hover {
+    color: red;
+}
+
+
+/*--our team end--*/
+
+
+/*--fun and facts --*/
+
+.funfactheading {
+    margin-top: 5%
+}
+
+#funfact-content {
+    padding: 2% 0;
+    background-color: rgba(20, 3, 50, 0.7);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.funfactheading img {
+    position: relative;
+    left: 30px
+}
+
+.funfactdetail ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 5%
+}
+
+.funfactdetail li {
+    text-align: center
+}
+
+.funfactdetail i {
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.funfactdetail li p {
+    text-transform: uppercase
+}
+
+.funfactdetail i+p {
+    font-size: 50px
+}
+
+.slider {
+    position: relative;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+/*--fun and facts end --*/
+
+
+/*--Discuss --*/
+
+#contact {
+    padding: 5%
+}
+
+.content {
+    margin-bottom: 2%
+}
+
+.content p {
+    font-weight: bold;
+    text-align: center
+}
+
+#contact div {
+    overflow: hidden;
+}
+
+.contact h4 {
+    font-weight: bold
+}
+
+.leftcontent {
+    height: 220px;
+    line-height: 30px
+}
+
+.contact input {
+    width: 48.9%;
+    margin-right: .7%;
+    margin: 30px 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid gray;
+    color: green
+}
+
+.contact button {
+    float: right;
+    border: 1px solid transparent;
+    background: transparent;
+    margin-top: 20px;
+    color: green
+}
+
+.contact button:hover {
+    color: white;
+    background-color: black
+}
+
+.contact textarea {
+    width: 99.2%;
+    border: 1px solid transparent;
+    border-bottom: 1px solid gray;
+    color: green
+}
+
+#discusssocial a {
+    display: block;
+}
+
+#discusssocial i:hover {
+    color: blue
+}
+
+
+/*--Discuss end --*/
+
+
+/*--map-Part-Starts-Here --*/
+
+.map iframe {
+    width: 100%;
+    height: 20%;
+    border: none;
+    margin-bottom: -5px;
+}
+
+
+/*--map-Part-Ends-Here --*/
+
+
+/*--Footer--*/
+
+#footer {
+    background-color: #1EA78D;
+    padding: 6% 0;
+    color: white;
+    border-top: 5px solid black
+}
+
+.footercontent {}
+
+.footercontent h2 {
+    position: relative;
+    bottom: 18px;
+    font-family: 'Pacifico', cursive;
+}
+
+.footercontent p {
+    margin-top: 15%
+}
+
+.subcribe .input-group {
+    margin-top: 28%
+}
+
+.subcribe input {
+    background-color: #1EA78D;
+    border: 1px solid white;
+    border-right: 1px solid transparent
+}
+
+.subcribe button {
+    background-color: #1EA78D;
+    border: 1px solid white;
+    border-left: 1px solid transparent
+}
+
+.subcribe button:hover {
+    background-color: inherit;
+}
+
+.subcribe p {
+    margin-top: 10%;
+    line-height: 200%
+}
+
+.explore {}
+
+.explore ul li:first-of-type {
+    float: left;
+}
+
+.explore ul ul li a {
+    color: white;
+}
+
+.explore ul ul li {
+    padding: 10px 0;
+}
+
+.explore ul li ul {
+    float: left;
+    ;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.copyright {}
+
+.copyright img {
+    position: relative;
+    right: 12%;
+    top: 55px
+}
+
+.copyright i {
+    color: black;
+    padding: 5px
+}
+
+.copyright span {
+    color: black
+}
+
+.copyright footer {
+    margin-top: 30%;
+    color: black
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 40px;
+	height: 25px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/top-arrow.png) no-repeat;
+	z-index: 999;
+}
+
+/*--Footer end --*/

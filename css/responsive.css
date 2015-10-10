@@ -1,0 +1,82 @@
+/* MEDIA QUERY:
+   WIDTH: 1920px
+============================================================ */
+@media only screen and (min-width: 1920px) {
+   #funfact-content {
+    width: 96%;
+       height: 700px;
+       top: 298%;
+}
+
+.funfactheading img {
+    position: relative;
+    left: 80px
+}
+
+.funfactdetail ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5%
+}
+    #slider1 img{width: 100%}
+    
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+    #funfact-content {
+    width: 96%;
+       height: 600px;
+       top: 360%;
+       
+}
+}
+/* MEDIA QUERY:
+   MIN WIDTH: 992px | MAX WIDTH: 1199px
+============================================================ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+     width: 96%;
+       height: 600px;
+       top: 290%;
+}
+
+/* MEDIA QUERY:
+   MIN WIDTH: 768px | MAX WIDTH: 991px
+============================================================ */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     width: 96%;
+       height: 600px;
+       top: 360%;
+}
+
+/* MEDIA QUERY:
+   MIN WIDTH: NONE | MAX WIDTH: 767px
+============================================================ */
+@media only screen and (max-width: 767px) {
+    .callbacks_nav {
+        top: 55%;
+    }
+}
+
+/* MEDIA QUERY:
+   MIN WIDTH: 640px | MAX WIDTH: 767px
+============================================================ */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    
+}
+
+/* MEDIA QUERY:
+   MIN WIDTH: 480px | MAX WIDTH: 639px
+============================================================ */
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+    
+}
+   
+/* MEDIA QUERY:
+   MIN WIDTH: 320px | MAX WIDTH: 479px
+============================================================ */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .callbacks_nav {
+        top: 60%;
+    }
+}
